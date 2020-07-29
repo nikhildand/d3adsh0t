@@ -1,6 +1,6 @@
 # Disclaimer :
 
-**'d3dsh0t' is a FPS game Aimbot, It is purely experimental and is intended only for educational purposes.**
+**'d3dsh0t' is a FPS Game Aimbot, It is purely experimental and is intended only for educational purposes.**
 
 **Aimbots are cheats and illegal in games. This repo is solely for educational purposes only.**
 
