@@ -1,5 +1,6 @@
 # 🔶 d3adsh0t !! 🔶
 
+![](/samples/d3adsh0t.png)
 
 ## Disclaimer :
 
