@@ -1,4 +1,4 @@
-from grabscreen import grab_screen
+from utils.grabscreen import grab_screen
 from interception.AutoHotPy import *
 from models.experimental import *
 from utils.datasets import *
