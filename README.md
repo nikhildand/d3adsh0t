@@ -73,11 +73,15 @@ I have **no intentions on re-coding d3adsh0t in C++**, If I wanted to I could ha
 
 ## How To Use ?!!
 
-1) Run any FPS game (In my case, it was Valorant) in 'Windowed Mode'
+1) Prepare your Data-Set. (Different Angle, Different Exposure, Different Distance's)
 
-2) Change the **'region=()'** parameter of grab_screen(**''**) in d3adsh0t.py to your convince, if you dont pass anything, it will take the whole screen, processing (grab_screen and other stuff) such input is way too time taking and not worth it, **I would suggest a resolution to 1280x720** or even less for better performance.
+1) Train an agent. (Invest most of your time here, your models performance depends on this)
 
-3) Run **'d3adsh0t.py'** and start a game.
+2) Run any FPS game. (In my case, it was Valorant) in 'Windowed Mode'
+
+3) Change the **'region=()'** parameter of grab_screen(**''**) in d3adsh0t.py to your convince, if you dont pass anything, it will take the whole screen, processing (grab_screen and other stuff) such input is way too time taking and not worth it, **I would suggest a resolution to 1280x720** or even less for better performance.
+
+4) Run **'d3adsh0t.py'** and start a game.
 
 ## 'd3adsh0t' In Action :
 
