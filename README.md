@@ -47,7 +47,7 @@ I would suggest you to setup a virtual environment and clone the repo from versi
 
 ```
 Original Author's GitHub : https://github.com/oblitum/Interception [C++], 
-Python Wrapper :           https://github.com/dc740/AutoHotPy
+Python Wrapper by 'dc740': https://github.com/dc740/AutoHotPy
 
 NOTE : Managing' Mouse-Inputs' depends on the game, normally games patch many mouse_events and movements,
 So I resorted to this driver, if you dont know what you are doing when using this driver I highly recommend
