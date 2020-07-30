@@ -1,4 +1,4 @@
-# Anti Recoil : 
+# Anti Recoil Helper Package :
 
 ## AntiRecoil.py :
 
