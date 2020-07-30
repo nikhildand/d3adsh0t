@@ -65,6 +65,8 @@ This project utilizes the **Yolov5s** architecture : https://github.com/ultralyt
 
 ## Performance And Inference :
 
+**Note:** The FPS discussed is only **Processing FPS** your **in-game gameplay FPS wont be affected**.
+
 **'d3adsh0t'** in game its able to **Process Detections** at around 35 - 40 frames per seconds, this drops to around 25 - 28 (**In python world 'it is fast'**) (40+ recommended in online games) frames per second when the Main-Thread waits for Cursor Movement when an enemy is detected (Combo-Key On Hold) on a **Overclocked GTX 1080Ti** and **Intel Core i9-9900K**, so it wouldn't be top level and anyways it wouldn't give that significant of an advantage (even your hardware must be good for it to get to that result), unless its re-written in C++ to optimize many parts. (maybe an increase in about 5-8 FPS ?! or more ?!)
 
 I have **no intentions on re-coding d3adsh0t in C++**, If I wanted to I could have built the project in C++ only, (would have taken a lot of time, training and deploying the model would be delayed, people could abuse it in 'online games' and a lot of other stuff) considering all that I chose not to code in C++ (kinda intentionally handicaped my project)
