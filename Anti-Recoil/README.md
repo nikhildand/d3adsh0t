@@ -18,6 +18,10 @@ F2 - F6  keys are used to switch GUN's
 
 F7 key is used as a Toggler for Data Logger
 
+## VisualizeData.py
 
+Features : Parses Data from .txt, ScatterPlot Of Relative-X-Variation and Relative-Y-Variation for each bullet 'for all data collected' with their means,
+returns the **Mean Relative Movement for X and Y** for each bullet - bullet for reducing recoil.
 
+This is just a helper function which helps you to understand the distribution of data with human-intuition, currently it only returns the Mean-Relative-Movement among your whole data for bullet to bullet.
 
