@@ -7,7 +7,7 @@ import win32api
 import argparse
 
 d3adsh0t = None
-MovingCursor = False
+MovingCursor = False    # Trigger Check For ShootTargetThread
 
 
 def MouseManagingThread():
