@@ -81,7 +81,11 @@ I have **no intentions on re-coding d3adsh0t in C++**, If I wanted to I could ha
 
 ## 'd3adsh0t' In Action :
 
+### 'd3adsh0t' identifying Allies
+
 ![](/samples/example_1_d3adsh0t.gif)
+
+### 'd3adsh0t' differentiating Allies and Enemies followed by Killing Enemies
 
 ![](/samples/example_2_d3adsh0t.gif)
 
