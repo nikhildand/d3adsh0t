@@ -25,3 +25,6 @@ returns the **Mean Relative Movement for X and Y** for each bullet - bullet for 
 
 This is just a helper function which helps you to understand the distribution of data with human-intuition, currently it only returns the Mean-Relative-Movement among your whole data for bullet to bullet.
 
+![](/samples/Analysis.jpeg)
+
+
