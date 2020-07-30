@@ -60,7 +60,7 @@ you should be fine.
 
 This project utilizes the **Yolov5s** architecture : https://github.com/ultralytics/yolov5 
 
-(The tests which I had ran didn't completely use the same architecture, I have modified it a bit to achieve the results shown, but its more or less the same.)
+(The tests which I had ran didn't completely use the same architecture, I have modified it a bit to achieve the results shown, but its more or less the same, didnt alter anything in this repo w.r.t original Yolov5, so you need not worry about it)
 
 
 ## Performance And Inference :
