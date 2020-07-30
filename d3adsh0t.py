@@ -43,18 +43,22 @@ def MouseManagingThread():
 
 def ShootTargetThread():
     """
-    This function also runs through a thread, is invoked when the cursor is moved to d3adsh0t.
+    It is good to run this function in a (thread as a loop), as you can add flexibility for minimizing recoil
+    when invoked or you could just call the function from MoveCursorPosition function after moving, develop the
+    infrastructure yourself, I have left other basic stuff such as using keybind_event instead of mouse_events for MouseClicks
     """
 
     # Keybd_event  : https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-keybd_event
     # Virtual Keys : https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 
-    while MovingCursor:
+    
+    # Your Infrastructure:
+    
         win32api.keybd_event(0x01, 0x45, 0x0001 | 0, 0)  # Left Down
 
-        '''Can add logic here for Recoil Control, check Anti-Recoil folder to log gunshots to get data 
-        and use some basic statistics logics with regards to variance to control recoil, as Valorant induces
-        some randomness in gun-recoil (although the pattern is almost the same)
+        '''Can add logic here for Recoil Control or could just add a sleep timer, check Anti-Recoil folder
+        to log gunshots to get data and use some basic statistics logics with regards to mean and variance
+        to control recoil, as most FPS games induce some randomness in gun-recoil (although the pattern is almost the same)
         '''
 
         win32api.keybd_event(0x01, 0x45, 0x0001 | 0x0002, 0)  # Left Up
