@@ -58,18 +58,13 @@ you should be fine.
 
 ## Yolov5s :
 
-This project utilizes the **Yolov5s** architecture : https://github.com/ultralytics/yolov5 
-
-(The tests which I had ran didn't completely use the same architecture, I have modified it a bit to achieve the results shown, but its more or less the same, didnt alter anything in this repo w.r.t original Yolov5, so you need not worry about it)
-
+This project utilizes the **Yolov5s** architecture : https://github.com/ultralytics/yolov5 (Credits to Ultralytics for providing the base code for the YOLO architecture)
 
 ## Performance And Inference :
 
 **Note:** The FPS discussed is only **Processing FPS** your **in-game gameplay FPS wont be affected**.
 
-**'d3adsh0t'** in game its able to **Process Detections** at around 35 - 40 frames per seconds, this drops to around 25 - 28 (**In python world 'it is fast'**) (40+ recommended in online games) frames per second when the Main-Thread waits for Cursor Movement when an enemy is detected (Combo-Key On Hold) on a **Overclocked GTX 1080Ti** and **Intel Core i9-9900K**, so it wouldn't be top level and anyways it wouldn't give that significant of an advantage (even your hardware must be good for it to get to that result), unless its re-written in C++ to optimize many parts. (maybe an increase in about 5-8 FPS ?! or more ?!)
-
-I have **no intentions on re-coding d3adsh0t in C++**, If I wanted to I could have built the project in C++ only, (would have taken a lot of time, training and deploying the model would be delayed, people could abuse it in 'online games' and a lot of other stuff) considering all that I chose not to code in C++ (kinda intentionally handicaped my project)
+**'d3adsh0t'** in game its able to **Process Detections** at around 35 - 40 frames per seconds, this drops to around 25 - 28 (**In python world 'it is fast'**) frames per second when the Main-Thread waits for Cursor Movement when an enemy is detected on a **Overclocked GTX 1080Ti** and **Intel Core i9-9900K**, so it anyways wouldn't give any advantage, it is just a proof of concept.
 
 ## How To Use ?!!
 
