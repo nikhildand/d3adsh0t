@@ -84,7 +84,7 @@ This project utilizes the **Yolov5s** architecture : https://github.com/ultralyt
 
 ![](/samples/example_1_d3adsh0t.gif)
 
-### 'd3adsh0t' differentiating Allies and Enemies followed by Killing Enemies
+### 'd3adsh0t' differentiating Allies and Enemies
 
 ![](/samples/example_2_d3adsh0t.gif)
 
