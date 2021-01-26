@@ -4,15 +4,13 @@
 ![](/samples/d3adsh0t.png)
 
 
-**︻デ═一 Neural Network Aim-Bot for First-Person-Shooting Games in Python ︻デ═一**
+** Neural Object Detection for First-Person-Shooting Games in Python **
 
 ## Disclaimer :
 
-**'d3dsh0t' is a FPS Game Aimbot, It is purely experimental and is intended only for educational purposes.**
+**'d3dsh0t' is a Neural Object Detection for Allies and Enemies in FPS Games, It is purely experimental and is intended only for educational purposes.**
 
-**Aimbots are cheats and illegal in games. This repo is solely for educational purposes only.**
-
-Since this repo is open source (available to everyone), its just one google search away from cheaters abusing it, and I am not a fan of cheating in 'online multiplayer games', so I wont be uploading 'my' weights for the model.
+Since this repo is open source, its just one google search away from cheaters abusing it, and I am not a fan of cheating in 'online multiplayer games', so I wont be uploading 'my' weights for the model.
 
 If you truly believe in learning new stuff and would like to try out this repo, you should be able to build your own Data-Set and should be able to train a YOLOv5s model, this repo is solely aimed at those people who believe in learning and put out an effort.
 
@@ -74,7 +72,7 @@ This project utilizes the **Yolov5s** architecture : https://github.com/ultralyt
 
 2) Run any FPS game. (In my case, it was Valorant) in 'Windowed Mode'
 
-3) Change the **'region=()'** parameter of grab_screen(**''**) in d3adsh0t.py to your convince, if you dont pass anything, it will take the whole screen, processing (grab_screen and other stuff) such input is way too time taking and not worth it, **I would suggest a resolution to 1280x720** or even less for better performance.
+3) Change the **'region=()'** parameter of grab_screen(**''**) in d3adsh0t.py to your convenience, if you dont pass anything, it will take the whole screen, processing (grab_screen and other stuff) such input is way too time taking and not worth it, **I would suggest a resolution to 1280x720** or even less for better performance.
 
 4) Run **'d3adsh0t.py'** and start a game.
 
@@ -87,9 +85,3 @@ This project utilizes the **Yolov5s** architecture : https://github.com/ultralyt
 ### 'd3adsh0t' differentiating Allies and Enemies
 
 ![](/samples/example_2_d3adsh0t.gif)
-
-## Other Plugins :
-
-### Anti-Recoil 
-
-Most FPS games have an inbuilt Recoil (with some randomization included), to minimize recoil you would first need to log the data and parse it, visualize and finally analyze it, I have built a logging feature in **'AntiRecoil.py'** and parsing raw data from a txt file to visualizing it in **'VisualizeData.py** (for 'mitigating Randomness' and 'building Humanizer through variance in data')
