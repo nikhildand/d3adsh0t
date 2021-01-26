@@ -64,7 +64,7 @@ This project utilizes the **Yolov5s** architecture : https://github.com/ultralyt
 
 **Note:** The FPS discussed is only **Processing FPS** your **in-game gameplay FPS wont be affected**.
 
-**'d3adsh0t'** in game its able to **Process Detections** at around 35 - 40 frames per seconds, this drops to around 25 - 28 (**In python world 'it is fast'**) frames per second when the Main-Thread waits for Cursor Movement when an enemy is detected on a **Overclocked GTX 1080Ti** and **Intel Core i9-9900K**, so it anyways wouldn't give any advantage, it is just a proof of concept.
+**'d3adsh0t'** in game is able to **Process Detections** at around 35 - 40 frames per seconds, this drops to around 25 - 28 (**In python world 'it is fast'**) frames per second when the Main-Thread waits for Cursor Movement when an enemy is detected on a **Overclocked GTX 1080Ti** and **Intel Core i9-9900K**, so it anyways wouldn't give any significant advantage, it is just a proof of concept.
 
 ## How To Use ?!!
 
